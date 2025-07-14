@@ -52,17 +52,11 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
+    margin-top: 12rem;
 }
 
-img {
-    width: 12%;
-}
-
-.main-content-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex: 0.5;
+.transparent-bar img {
+    width: 18%;
 }
 
 h1 {
@@ -77,4 +71,24 @@ h1 {
 
 footer a {
     color: white;
+}
+
+.main-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0.6;
+}
+
+.questions {
+    display: flex;
+}
+
+.questions-column {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border-color: #E5E7EB;
 }
