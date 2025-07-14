@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 .background-leaves {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     flex: 0.4;
     background-image: url(./images/leaves.jpg);
@@ -54,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 img {
-    width: 10%;
+    width: 12%;
 }
 
 .main-content-container {
@@ -68,4 +69,12 @@ h1 {
     color: white;
     font-family: Norse-bold, 'Times New Roman', Times, serif;
     font-size: 6rem;
+}
+
+.photo-credit {
+    color: white;
+}
+
+footer a {
+    color: white;
 }
