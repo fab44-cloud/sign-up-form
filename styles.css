@@ -42,6 +42,7 @@ h1, h2, h3, h4, h5, h6 {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 100vh;
 }
 
 .transparent-bar {
@@ -62,4 +63,5 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     color: white;
     font-family: Norse-bold, 'Times New Roman', Times, serif;
+    font-size: 8rem;
 }
