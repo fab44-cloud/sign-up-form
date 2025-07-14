@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 0.5;
+    flex: 0.4;
     background-image: url(./images/leaves.jpg);
     background-position: center center;
     background-size: cover;
@@ -53,6 +53,10 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
 }
 
+img {
+    width: 10%;
+}
+
 .main-content-container {
     display: flex;
     flex-direction: column;
@@ -63,5 +67,5 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     color: white;
     font-family: Norse-bold, 'Times New Roman', Times, serif;
-    font-size: 8rem;
+    font-size: 6rem;
 }
