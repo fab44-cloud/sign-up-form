@@ -32,14 +32,25 @@ h1, h2, h3, h4, h5, h6 {
     text-wrap: balance;
 }
 
+.background-leaves {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./images/leaves.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .transparent-bar {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
 }
 
 h1 {
-    color: whitesmoke;
-    font-family: norse-bold, 'Times New Roman', Times, serif;
+    color: white;
+    font-family: Norse-bold, 'Times New Roman', Times, serif;
 }
