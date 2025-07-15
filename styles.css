@@ -120,7 +120,6 @@ select,
 textarea {
     font-family: inherit;
     font-size: 100%;
-    width: 150px;
     padding: 0;
 }
 
@@ -138,4 +137,22 @@ label {
 
 input {
     border-radius: 5%;
+}
+
+.account-container {
+    padding-left: var(--left-pad);
+}
+
+.account-btn {
+    color: white;
+    background-color: #596D48;
+    border: 1px solid #596D48;
+    border-radius: 0.5rem; 
+    padding: 0.5rem 3rem;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+}
+
+.account-btn:hover {
+    background-color: darkgreen;
 }
