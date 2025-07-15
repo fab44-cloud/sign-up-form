@@ -81,12 +81,10 @@ footer a {
     flex: 0.6;
 }
 
-/* .main-text-container {
-    background-color: lightgrey;
-} */
-
 .questions {
     display: flex;
+    flex-direction: row;
+    gap: 5rem;
 }
 
 .questions-column {
@@ -96,4 +94,34 @@ footer a {
 
 input {
     border-color: #E5E7EB;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    width: 150px;
+    padding: 0;
+}
+
+fieldset {
+    position: relative;
+    padding: 2rem;
+}
+
+legend {
+    position: absolute;
+    top: 0;
+    left: 2;
+    font-size: 1.5rem;
+}
+
+label {
+    margin-top: 1rem;
+}
+
+input {
+    border-radius: 5%;
 }
