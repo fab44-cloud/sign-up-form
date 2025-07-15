@@ -10,6 +10,7 @@ body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     display: flex;
+    background-color: #f9fafb;
 }
 
 img, picture, video, canvas, svg {
@@ -79,6 +80,10 @@ footer a {
     justify-content: center;
     flex: 0.6;
 }
+
+/* .main-text-container {
+    background-color: lightgrey;
+} */
 
 .questions {
     display: flex;
