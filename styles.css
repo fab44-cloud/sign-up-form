@@ -4,6 +4,7 @@
 
 * {
     margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body {
@@ -57,7 +58,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .transparent-bar img {
-    width: 18%;
+    width: 20%;
+    min-width: 6rem;
 }
 
 h1 {
@@ -79,6 +81,22 @@ footer a {
     flex-direction: column;
     justify-content: center;
     flex: 0.6;
+    --left-pad: 2rem;
+}
+
+.main-text-container h2 {
+    padding-left: var(--left-pad);
+    padding-bottom: 2rem;
+    font-weight: bold;
+}
+
+.form-container {
+    position: relative;
+    padding-left: var(--left-pad);
+    padding-top: 2rem;
+    background-color: white;
+    border: 1px solid rgba(37, 37, 37, 0.1);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .questions {
@@ -106,16 +124,12 @@ textarea {
     padding: 0;
 }
 
-fieldset {
-    position: relative;
-    padding: 2rem;
-}
-
 legend {
     position: absolute;
-    top: 0;
-    left: 2;
+    top: 0.4rem;
+    left: 1.8rem;
     font-size: 1.5rem;
+    font-weight: bold;
 }
 
 label {
