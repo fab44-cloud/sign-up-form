@@ -1,5 +1,9 @@
 # sign-up-form
 
+## Project overview:
+
+This project is a sign-up form for an imaginary service.
+
 ### Credits:
 
 [green leaves](images/leaves.jpg)
