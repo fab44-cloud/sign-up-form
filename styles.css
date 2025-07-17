@@ -140,6 +140,14 @@ input {
     max-width: 40ch;
 }
 
+input:focus {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input:invalid {
+    border-color: red;
+}
+
 .account-container {
     padding-left: var(--left-pad);
 }
