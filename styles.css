@@ -110,6 +110,7 @@ footer a {
 .questions-column {
     display: flex;
     flex-direction: column;
+    width: 90%;
 }
 
 button,
@@ -136,8 +137,9 @@ label {
 input {
     border-radius: 5px;
     border: 1px solid #E5E7EB;
-    field-sizing: content;
-    max-width: 40ch;
+    /* field-sizing: content; */
+    width: 100%;
+    max-width: 30ch;
 }
 
 input:focus {
